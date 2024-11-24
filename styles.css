@@ -87,3 +87,40 @@ p {
   background-color: #1F2937;
   color: #E5E7EB;
 }
+
+.information h1{
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.info-piece .image-box {
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  width: 150px;
+  height: 150px;
+}
+
+.info-piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 150px;
+  text-align: center;
+  color: rgb(99, 99, 99);
+}
+
+.info-container {
+  display: flex;
+  gap: 50px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 30px 150px 30px;
+}
