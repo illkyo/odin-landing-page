@@ -15,6 +15,18 @@ ul {
   margin: 0;
 }
 
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 p {
   font-weight: 300;
 }
@@ -32,8 +44,7 @@ button {
   color: #E5E7EB;
 }
 
-.header h1 {
-  font-size: 24px;
+.header h3 {
   font-weight: 900;
 }
 
@@ -61,7 +72,6 @@ button {
 }
 
 .hero h1 {
-  font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
 }
@@ -102,8 +112,7 @@ button {
   color: #E5E7EB;
 }
 
-.information h1{
-  font-size: 36px;
+.information h2{
   font-weight: 900;
   color: #1F2937;
 }
@@ -144,10 +153,9 @@ button {
   font-style: italic;
 }
 
-.quote h6 {
+.quote h3 {
   align-self: flex-end;
   margin: 0 40px 0 0;
-  font-size: 24px;
 }
 
 .quote {
@@ -167,10 +175,6 @@ button {
 .call-to-action button {
   border: 3px solid #E5E7EB;
   background-color: transparent;
-}
-
-.call-to-action h1 {
-  font-size: 24px;
 }
 
 .call-to-action .container {
