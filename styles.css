@@ -6,6 +6,20 @@ body {
 
 p {
   margin: 0;
+  font-weight: 300;
+}
+
+.hero .image-box p,
+.information p {
+  font-weight: 400;
+}
+
+button {
+  padding: 8px 32px 8px 32px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #E5E7EB;
 }
 
 .header h1 {
@@ -45,21 +59,11 @@ p {
 .hero p {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 300;
 }
 
 .hero button {
-  padding: 8px 32px 8px 32px;
-  border-radius: 8px;
   border-style: none;
-  font-size: 15px;
-  font-weight: 700;
   background-color: #3882F6;
-  color: #E5E7EB;
-}
-
-.hero .image-box p {
-  font-weight: 400;
 }
 
 .hero .text-box {
@@ -129,12 +133,11 @@ p {
   width: 790px;
   font-size: 36px;
   font-style: italic;
-  font-weight: 300;
 }
 
 .quote h6 {
-  margin: 0 40px 0 0;
   align-self: flex-end;
+  margin: 0 40px 0 0;
   font-size: 24px;
 }
 
@@ -152,19 +155,9 @@ p {
   color: #1F2937;
 }
 
-.call-to-action p {
-  font-weight: 300;
-}
-
 .call-to-action button {
-  flex-grow: 0;
-  padding: 8px 32px 8px 32px;
   border: 3px solid #E5E7EB;
-  border-radius: 8px;
-  font-size: 15px;
-  font-weight: 700;
   background-color: transparent;
-  color: #E5E7EB;
 }
 
 .call-to-action h1 {
