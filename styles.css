@@ -151,3 +151,41 @@ p {
   background-color: #E5E7EB;
   color: #1F2937;
 }
+
+.call-to-action p {
+  font-weight: 300;
+}
+
+.call-to-action button {
+  flex-grow: 0;
+  padding: 8px 32px 8px 32px;
+  border: 3px solid #E5E7EB;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #E5E7EB;
+}
+
+.call-to-action h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.call-to-action .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  padding: 45px 100px 45px 100px;
+  border-radius: 8px;
+  background-color: #3882F6;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px 100px 200px;
+  color: #E5E7EB;
+}
